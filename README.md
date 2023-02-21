@@ -4,8 +4,9 @@
 According to the percolation conduction characteristics of composite polymer solid electrolyte, a program for calculating the ionic conductivity of composite polymer solid electrolyte was developed based on the random resistance model and effective medium theory.
 
 #### Software Architecture
-1.fike_hand.py
-  File processing scripts
+
+1. fike_hand.py
+   File processing scripts
 
 2. initial_structure_new.py
    Composite conductor structure initialization
