@@ -1,7 +1,7 @@
 import numpy as np
 import datetime
-from initial_structure_new import initial_stru
-from ions_jumping_process_new1 import ions_jump
+from initial_structure import initial_stru
+from ions_jumping_process import ions_jump
 from samples_to_generate import sample_generation
 from file_hand import mkdir
 
