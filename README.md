@@ -23,7 +23,7 @@
 
 #### 所需要的包
 
-python 3.7.4   pandas 1.3.1  numpy 1.2   datetime 1.3
+python 3.7.4 pandas 1.3.2 pip 21.2.2 python-dateutil 2.8.2 pytz 2021.1 setuptool 57.4.0 six 1.16.0
 
 #### 使用方法
  
