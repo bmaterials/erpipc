@@ -24,7 +24,7 @@ The module implements the ionic conductivity calculation algorithm, and solves t
 
 ####Required packages
 
-python 3.7.4 ase 3.19.0 pymatgen 2020.12.31 pandas 1.3.1 numpy 1.21.1 PyQt5 5.15.6 numba 0.55.1
+python 3.7.4   pandas 1.3.1   datetime 1.3  numpy 1.21.1 
 
 ####Instructions for use
 
