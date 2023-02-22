@@ -1,36 +1,29 @@
-# Mixed solid electrolyte--dyq
+# pipc
 
 #### Description
-{**When you're done, you can delete the content in this README and update the file with details for others getting started with your repository**}
+
+Using Python3 programming language, a Python library pipc was developed to realize the calculation function of ionic conductivity of composite polymer solid electrolyte.
 
 #### Software Architecture
-Software architecture description
 
-#### Installation
+（1） initial_structure
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+The module implements the function of initializing the composite polymer conductor structure, including the size of the model, the occupation of the inorganic phase, and the initial site state of the walkers.
 
-#### Instructions
+（2） ions_jumping_process
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+This module implements the algorithm of how walkers choose to migrate.
 
-#### Contribution
+（3） samples_to_generate
 
-1.  Fork the repository
-2.  Create Feat_xxx branch
-3.  Commit your code
-4.  Create Pull Request
+The module is used to record the information of each step of walkers migration, including time step and site coordinates.
 
+（4） parameter_calculation
 
-#### Gitee Feature
+The module implements the ionic conductivity calculation algorithm, and solves the ionic conductivity according to the Nernst Einstein equation by recording enough walkers migration information.
 
-1.  You can use Readme\_XXX.md to support different languages, such as Readme\_en.md, Readme\_zh.md
-2.  Gitee blog [blog.gitee.com](https://blog.gitee.com)
-3.  Explore open source project [https://gitee.com/explore](https://gitee.com/explore)
-4.  The most valuable open source project [GVP](https://gitee.com/gvp)
-5.  The manual of Gitee [https://gitee.com/help](https://gitee.com/help)
-6.  The most popular members  [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+####Required packages
+
+python 3.7.4 ase 3.19.0 pymatgen 2020.12.31 pandas 1.3.1 numpy 1.21.1 PyQt5 5.15.6 numba 0.55.1
+
+####Instructions for use
