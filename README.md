@@ -1,36 +1,31 @@
-# Mixed solid electrolyte
+# pipc
 
-#### Introduction
-According to the percolation conduction characteristics of composite polymer solid electrolyte, a program for calculating the ionic conductivity of composite polymer solid electrolyte was developed based on the random resistance model and effective medium theory.
+#### 介绍
 
-#### Software Architecture
+使用Python3编程语言开发了一个Python库pipc来实现复合聚合物固态电解质离子电导率的计算功能。
 
-1. fike_hand.py
+#### 软件架构
+（1） initial_structure
 
-   File processing scripts
+   该模块实现了复合聚合物导体结构初始化的功能，包括模型尺寸大小，无机相的占据，walkers初始位点状态。
 
-2. initial_structure_new.py
+（2） ions_jumping_process
+   
+   该模块实现了walkers如何进行选择迁移的算法。
 
-   Composite conductor structure initialization
+（3） samples_to_generate
 
-3. ions_jumping_process_new1.py
+   该模块用来记录walkers每一步迁移的信息，包括时间步长，位点坐标。
 
-   walkers select the direction to migrate and complete enough migration steps
+（4） parameter_calculation
 
-4. samples_to_generate.py
+   该模块实现离子电导率计算算法，通过所记录的足够多的walkers迁移信息，再根据能斯特爱因斯坦方程求解离子电导率。
 
-   Record the information of each step of walkers migration
-
-5. parameter_calculation_v1.py
-
-   According to the recorded location and time information, the ionic conductivity is calculated.
-
-#### Required packages
+#### 所需要的包
 
 python 3.7.4 ase 3.19.0 pymatgen 2020.12.31 pandas 1.3.1 numpy 1.21.1 PyQt5 5.15.6 numba 0.55.1
 
-
-#### Instructions for use
+#### 使用方法
  
 
 
