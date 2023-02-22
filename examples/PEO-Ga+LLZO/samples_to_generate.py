@@ -1,8 +1,8 @@
 import numpy as np
 import datetime
 import random
-from initial_structure_new import initial_stru
-from ions_jumping_process_new1 import ions_jump
+from initial_structure import initial_stru
+from ions_jumping_process import ions_jump
 
 def sample_generation(jump_num,rate_hopping_a, rate_hopping_b,rate_hopping_c,coor_doped_label,ions_logic_coor,initial_cell_coor1,NX,NY,NZ):
 
