@@ -24,7 +24,7 @@ The module implements the ionic conductivity calculation algorithm, and solves t
 
 ####Required packages
 
-python 3.7.4   pandas 1.3.1   datetime 1.3  numpy 1.21.1 
+python 3.7.4   pandas 1.3.2   pip 21.2.2   python-dateutil 2.8.2  pytz 2021.1  setuptool 57.4.0   six 1.16.0
 
 ####Instructions for use
 
