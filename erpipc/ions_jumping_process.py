@@ -5,6 +5,23 @@ from .initial_structure import initial_stru
 
 
 def ions_jump(rate_hopping_a, rate_hopping_b, rate_hopping_c, coor_doped_label,ions_logic_coor,initial_cell_coor1,NX,NY,NZ):
+    '''
+    The migration process of walkers. Return the actual coordinates of each vacancy, the jump probability of each direction around each vacancy.
+        Parameters:
+            rate_hopping_a(float): The migration rate of A bond
+            rate_hopping_b(float): The migration rate of B bond
+            rate_hopping_c(float): The migration rate of C bond
+            coor_doped_label(): Markers corresponding to skeleton logical coordinates
+            ions_logic_coor(): 
+            initial_cell_coor1():
+
+         Returns:
+            all_logic_coor():
+            all_cell_coor():
+            all_ion_tao():
+            all_next_ion_phycoor1():
+
+    '''
     ### ions_logic_coor指离子所在的逻辑坐标  coor_doped_label表示所有占点逻辑坐标对应的标记
     ### 函数功能：返回每个空位的实际坐标，每个空位周围各个方向的跳跃概率
     all_cell_logic_coor = []
@@ -123,19 +140,11 @@ if __name__ == '__main__':
     rate_hopping_c = float(1 / tao_c)
 
     aa = initial_stru(P, NX, NY, NZ, ion_num)
-    # print('aa[0]',aa[0])
-    # print('aa[1]',aa[1])
-    # print('aa[2]',aa[2])
+ 
     print('第一个函数没问题')
 
     bb = ions_jump(rate_hopping_a, rate_hopping_b, rate_hopping_c, aa[0],aa[1], aa[2],NX,NY,NZ)
     print('第二个函数没问题')
     time2 = datetime.datetime.now()
     print('所花时间：', time2 - time1)
-    # time2 = datetime.datetime.now()
-    # print('所花时间：', time2 - time1)
-    # # print(bb[0][0][0]) ## [1 1 1]
-    # # print(bb[1][0][0]) ## [3 1 1]
-    # # print(bb[0][1][0]) ## [1 3 1]
-    # # print(bb[1][1][0]) ## [3 3 1]
-    # # print(bb[1][1][1]) ## [3 3 3]
+
