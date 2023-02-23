@@ -47,7 +47,7 @@ def initial_stru(P, NX, NY, NZ, ion_num):
     coord_doped_label = np.zeros((NX, NY, NZ, 1), dtype=int)
 
     cllist = coord_doped_label.reshape((NX * NY * NZ))
-    # 根据被掺杂的骨架编号 将cllist对应标号的标记为1或0
+    # The corresponding label of cllist is marked as 1 or 0 according to the doped skeleton number.
     cllist[occupy_number] = 1
     initial_cell_coor = np.zeros(ion_num * 3, dtype=int).reshape(ion_num, 3)
 
