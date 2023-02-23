@@ -12,7 +12,7 @@ def sample_generation(jump_num,rate_hopping_a, rate_hopping_b,rate_hopping_c,coo
             rate_hopping_a(float): The migration rate of A bond
             rate_hopping_b(float): The migration rate of B bond
             rate_hopping_c(float): The migration rate of C bond
-            coor_doped_label(): 
+            coor_doped_label(int): The markers corresponding to the logical coordinates of the skeleton
             ions_logic_coor(list):Walkers logical coordinates
             initial_cell_coor1(list)：initial coordinate
             NX(int)：matrix size
@@ -24,11 +24,10 @@ def sample_generation(jump_num,rate_hopping_a, rate_hopping_b,rate_hopping_c,coo
     all_ions_phycoor = []
     logic_ions =[]
 
-    # print('离子初始逻辑坐标：',ions_logic_coor)
-    # print('离子初始胞坐标：',initial_cell_coor1)
+
     all_initial_phy = ions_logic_coor
-    # print('离子初始物理坐标：',all_initial_phy)
     all_ions_phycoor.append(all_initial_phy)
+    # logic_ions：Logical coordinates in all ion hopping processes
     logic_ions.append(ions_logic_coor)
     for i in range(0,jump_num):
         if i == 0:
@@ -37,16 +36,16 @@ def sample_generation(jump_num,rate_hopping_a, rate_hopping_b,rate_hopping_c,coo
         else:
             i_sample = ions_jump(rate_hopping_a, rate_hopping_b, rate_hopping_c, coor_doped_label, ss,qq,NX,NY,NZ)
 
-        ss = i_sample[0] ## 上一状态的逻辑坐标
-        qq = i_sample[1] ## 上一状态的胞坐标
-        # logic_ions.append(ss)
+        ss = i_sample[0] 
+        qq = i_sample[1] 
+
         all_ion_tao.append(i_sample[2])
         all_ions_phycoor.append(i_sample[3])
+    # all_ion_tao1：Ion each step
     all_ion_tao1 = np.array(all_ion_tao)
+    # all_ions_phycoor1：Physical coordinates in all ion hopping processes
     all_ions_phycoor1 = np.array(all_ions_phycoor)
-    # print('所有离子跳跃过程中逻辑坐标：',logic_ions)
-    # print('所有离子跳跃过程中物理坐标：',all_ions_phycoor1)
-    # print('离子每个步长：',all_ion_tao1)
+    
 
     return all_ions_phycoor1,all_ion_tao1
 
