@@ -13,9 +13,9 @@ def initial_stru(P, NX, NY, NZ, ion_num):
             NZ(int): matrix size
             ion_num(int): Number of walkers migrated
         Returns:
-            coord_doped_label():The markers corresponding to the logical coordinates of the skeleton
-            ion_logic_coor(): Initialized walkers logic coordinates
-            initial_cell_coor(): Physical coordinates of all points in the system
+            coord_doped_label(int):The markers corresponding to the logical coordinates of the skeleton
+            ion_logic_coor(list): Initialized walkers logic coordinates
+            initial_cell_coor(list): Physical coordinates of all points in the system
     '''
 
     x, y, z = np.mgrid[0:NX, 0:NY, 0:NZ]
