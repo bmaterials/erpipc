@@ -11,9 +11,9 @@ def ions_jump(rate_hopping_a, rate_hopping_b, rate_hopping_c, coor_doped_label,i
             rate_hopping_a(float): The migration rate of A bond
             rate_hopping_b(float): The migration rate of B bond
             rate_hopping_c(float): The migration rate of C bond
-            coor_doped_label(): Markers corresponding to skeleton logical coordinates
-            ions_logic_coor(): 
-            initial_cell_coor1():
+            coor_doped_label(int): Markers corresponding to skeleton logical coordinates
+            ions_logic_coor(list): Initialized walkers logic coordinates
+            initial_cell_coor1(list): Physical coordinates of all points in the system
 
          Returns:
             all_logic_coor():
