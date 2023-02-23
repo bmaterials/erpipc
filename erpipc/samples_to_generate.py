@@ -5,7 +5,21 @@ from .initial_structure import initial_stru
 from .ions_jumping_process import ions_jump
 
 def sample_generation(jump_num,rate_hopping_a, rate_hopping_b,rate_hopping_c,coor_doped_label,ions_logic_coor,initial_cell_coor1,NX,NY,NZ):
+'''
+    Record information during the walkers migration. Returns each step of the walkers ' migration time, each new coordinate.
+        Parameters:
+            jump_num():
+            rate_hopping_a
+            rate_hopping_b
+            rate_hopping_c
+            coor_doped_label
+            ions_logic_coor
+            initial_cell_coor1
+            NX()
+            NY
+            NZ
 
+'''
     all_ion_tao = []
     all_ions_phycoor = []
     logic_ions =[]
