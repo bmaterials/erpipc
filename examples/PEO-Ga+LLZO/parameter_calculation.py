@@ -1,9 +1,10 @@
 import numpy as np
 import datetime
-from initial_structure import initial_stru
-from ions_jumping_process import ions_jump
-from samples_to_generate import sample_generation
-from file_hand import mkdir
+from erpipc.initial_structure import initial_stru
+from erpipc.ions_jumping_process import ions_jump
+from erpipc.samples_to_generate import sample_generation
+from erpipc.file_hand import mkdir
+
 
 def calculate_parameter(ion_all_cor,all_ion_time,ion_num,jump_num):## walkers迁移步数用参数设置
     # ion_all_cor是离子跳跃过程所有物理坐标
@@ -82,9 +83,9 @@ if __name__ == '__main__':
 
     effect_path = 'sample0'
     mkdir(effect_path)
-    N = 500
+    N = 50
     NX = NY = NZ = N
-    jump_num = 1000000
+    jump_num = 100
     ion_num = 10
     P = 0.1
     tao_a = 20

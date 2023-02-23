@@ -1,8 +1,8 @@
-# pipc
+# erpipc
 
 #### Description
 
-Using Python3 programming language, a Python library pipc was developed to realize the calculation function of ionic conductivity of composite polymer solid electrolyte.
+Using Python3 programming language, a Python library erpipc was developed to realize the calculation function of ionic conductivity of composite polymer solid electrolyte.
 
 #### Software Architecture
 
@@ -29,3 +29,7 @@ python 3.7.4   pandas 1.3.2   pip 21.2.2   python-dateutil 2.8.2  pytz 2021.1  s
 ####Instructions for use
 
 The specific use method refers to the parameter setting operation in Section 3.2 of the user manual.
+
+install 
+
+pip install erpipc

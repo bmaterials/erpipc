@@ -8,24 +8,20 @@ def readme():
 
 # install_requires里面是干什么的#
 install_requires = [
-    "ase==3.15.0",
-    "pymatgen==2022.0.10",
-    "cavd==0.5.4",
 ]
 
-setup(name="pipc",
-      version="0.2.2",
+setup(name="erpipc",
+      version="0.1.0",
       author='Ding Yuqing',
       author_email='1024670883@qq.com',
       long_description=readme(),
       long_description_content_type='text/markdown',
-      url='https://gitee.com/shuhebing/CCNB',
+      url='https://gitee.com/shuhebing/erpipc',
       packages=find_packages(),
       include_package_data=True,
       install_requires=install_requires,
       python_requires='>=3.7,<3.10',
       entry_points={
           'console_scripts': [
-              'ccnb = ccnb:main.main',
           ],
       })
