@@ -8,16 +8,16 @@ def sample_generation(jump_num,rate_hopping_a, rate_hopping_b,rate_hopping_c,coo
 '''
     Record information during the walkers migration. Returns each step of the walkers ' migration time, each new coordinate.
         Parameters:
-            jump_num():
-            rate_hopping_a
-            rate_hopping_b
-            rate_hopping_c
-            coor_doped_label
-            ions_logic_coor
-            initial_cell_coor1
-            NX()
-            NY
-            NZ
+            jump_num(int): Total migration steps of walkers
+            rate_hopping_a(float): The migration rate of A bond
+            rate_hopping_b(float): The migration rate of B bond
+            rate_hopping_c(float): The migration rate of C bond
+            coor_doped_label(): 
+            ions_logic_coor(list):Walkers logical coordinates
+            initial_cell_coor1(list)：initial coordinate
+            NX(int)：matrix size
+            NY(int)：matrix size
+            NZ(int)：matrix size
 
 '''
     all_ion_tao = []
