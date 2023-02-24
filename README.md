@@ -25,9 +25,9 @@
 
 python 3.7.4 pandas 1.3.2 pip 21.2.2 python-dateutil 2.8.2 pytz 2021.1 setuptool 57.4.0 six 1.16.0
 
-#### 使用方法
+#### 安装教程
  
-具体使用方法参考用户手册3.2节的参数设置运行。
+依赖包信息存放在requirements.txt文件中.
 
-
-
+安装命令：
+pip intall erpipc
