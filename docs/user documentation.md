@@ -4,42 +4,6 @@ User Documentation
 
 2023-02-24
 
-# [**Catalogue**](javascript:;) {#catalogue .TOC-Heading}
-
-[1 Introduction [2](#_Toc128138852)](#_Toc128138852)
-
-[1.1 Background [2](#background)](#background)
-
-[1.2 Theoretical basis [2](#theoretical-basis)](#theoretical-basis)
-
-[1.2.2 Development and application of percolation theory
-[4](#development-and-application-of-percolation-theory)](#development-and-application-of-percolation-theory)
-
-[1.3 Main functions [6](#main-functions)](#main-functions)
-
-[2 Functional modules and key algorithms
-[6](#functional-modules-and-key-algorithms)](#functional-modules-and-key-algorithms)
-
-[2.1 Functional modules [6](#functional-modules)](#functional-modules)
-
-[2.2 Key algorithms [7](#key-algorithms)](#key-algorithms)
-
-[2.3 programming controls
-[9](#programming-controls)](#programming-controls)
-
-[3 Operating environment and usage method
-[9](#operating-environment-and-usage-method)](#operating-environment-and-usage-method)
-
-[3.1 Operating environment
-[9](#operating-environment)](#operating-environment)
-
-[3.2 Installation tutorial
-[10](#installation-tutorial)](#installation-tutorial)
-
-[3.3Instructions for use
-[10](#instructions-for-use)](#instructions-for-use)
-
-[]{#_Toc128138852 .anchor}
 
 # 1 Introduction
 
