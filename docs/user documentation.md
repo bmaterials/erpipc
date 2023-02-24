@@ -20,7 +20,7 @@ in all-solid-state lithium ion batteries. For example,
 Li~0.33~La~0.557~TiO~3~(LLTO), Li7La~3~Zr~2~O~12~(LLZO),
 Li~1.3~Al~0.3~Ti~1.7~(PO~4~)~3~(LATP), and Li~10~GeP~2~S~12~(LGPS) are
 inorganic solid electrolytes. They usually have high lithium ion
-conductivity (higher than 1×10^−3^ S cm^−1^ at room temperature), wide
+conductivity (higher than $1×10^{−3} \rm S cm^{−1}$ at room temperature), wide
 electrochemical window (\>5V), and good thermal stability. However,
 inorganic solid electrolytes have problems such as high brittleness and
 large interface impedance between electrolyte and electrode. On the
@@ -58,7 +58,7 @@ reaction. These interfacial phases are highly conductive and provide new
 conduction paths for ion transport. These interfacial phases are highly
 conductive and provide new conduction paths for ion transport.
 
-Li^+^ therefore involves three diffusion pathways in composite polymer
+$\rm Li^+$ therefore involves three diffusion pathways in composite polymer
 electrolytes, namely within the matrix material (i.e. polymer)
 internally, inside the inorganic filled phase, and the interfacial phase
 between the filled phase and the matrix. For the different conduction
@@ -190,9 +190,9 @@ height="2.930693350831146in"}
 Figure 2 Schematic diagram of the two-phase hybrid lattice model
 
 Firstly, regarding the construction of the two-phase hybrid lattice
-model, a 500\*500\*500 lattice gas model is constructed in 3D space (as
-shown in Figure 2), in which 500\*500\*500\*P lattice sites are randomly
-occupied (P denotes the doping concentration of inorganic substances) to
+model, a $500\times 500\times 500$ lattice gas model is constructed in 3D space (as
+shown in Figure 2), in which $500\times 500\times 500\times P$ lattice sites are randomly
+occupied ($P$ denotes the doping concentration of inorganic substances) to
 represent the randomly filled inorganic substances in the polymer
 matrix. The bonds connecting two adjacent lattice sites can be
 considered as resistors and three types of bonds exist in the model. (1)
