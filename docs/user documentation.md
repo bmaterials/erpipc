@@ -242,7 +242,7 @@ by recording enough walkers migration information.
 
 ## 2.3 programming controls
 
-![](media/f3.png =400x300)
+![](media/f3.png)
 Figure 3 Program design flow chart
 
 # 3 Operating environment and usage method
