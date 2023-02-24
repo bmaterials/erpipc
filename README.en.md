@@ -28,8 +28,6 @@ python 3.7.4   pandas 1.3.2   pip 21.2.2   python-dateutil 2.8.2  pytz 2021.1  s
 
 ####Instructions for use
 
-The specific use method refers to the parameter setting operation in Section 3.2 of the user manual.
-
-install 
-
-pip install erpipc
+The dependent packet information is stored in the requirements.txt file. 
+ 
+Installation command : pip intall erpipc
