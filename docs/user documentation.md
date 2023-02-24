@@ -1,9 +1,8 @@
-Composite polymer solid ionic conductivity calculation software V0.1.0
+**Composite polymer solid ionic conductivity calculation software V0.1.0**
 
 User Documentation
 
 2023-02-24
-
 
 # 1 Introduction
 
@@ -17,8 +16,8 @@ challenges.
 
 Inorganic solid electrolytes and polymer electrolytes are commonly used
 in all-solid-state lithium ion batteries. For example,
-Li~0.33~La~0.557~TiO~3~(LLTO), Li7La~3~Zr~2~O~12~(LLZO),
-Li~1.3~Al~0.3~Ti~1.7~(PO~4~)~3~(LATP), and Li~10~GeP~2~S~12~(LGPS) are
+$\rm Li_{0.33}La_{0.557}TiO_3(LLTO), Li_7La_3Zr_2O_{12}(LLZO),$
+$\rm Li_{1.3}Al_{0.3}Ti_{1.7}(PO_4)_3(LATP)$, and $\rm Li_{10}GeP_2S_{12}(LGPS)$ are
 inorganic solid electrolytes. They usually have high lithium ion
 conductivity (higher than $1×10^{−3} \rm S cm^{−1}$ at room temperature), wide
 electrochemical window (\>5V), and good thermal stability. However,
@@ -130,9 +129,7 @@ to global connectivity analysis. Any global connectivity analysis
 resulting from local interconnections can be called a Percolation
 simulation.
 
-![](media/image1.emf){width="5.7652176290463695in"
-height="1.3208770778652668in"}
-
+![](media/f1.png)
 Fig. 1 Two-dimensional diagram of several cases regarding percolation.
 (a) Bond percolation model with no conduction channel formed; (b) Bond
 percolation model with conduction channel formed; (c) Point percolation
@@ -142,8 +139,7 @@ conduction channel; (d) Bond percolation model with a conduction channel
 
 In the 1980s, percolation theory was applied to the study of the
 electrical conductivity of ionic conductors. For composite solid
-conductors, such as AgI or LiI doped with a second phase of Al2O3, the
-ionic conductivity of the resulting hybrid conductor increases, a
+conductors, such as AgI or LiI doped with a second phase of $\rm Al_2O_3$, the ionic conductivity of the resulting hybrid conductor increases, a
 phenomenon that can be explained by percolation theory. The researchers
 believe that the interface between the first and second phases is highly
 conductive and that with the addition of the second phase a long-range
@@ -184,15 +180,13 @@ a Monte Carlo simulation in which the walkers are randomly walked over
 the lattice model, sample data is recorded and physical parameters are
 calculated.
 
-![](media/image2.emf){width="3.2825218722659666in"
-height="2.930693350831146in"}
-
+![](media/f2.png)
 Figure 2 Schematic diagram of the two-phase hybrid lattice model
 
 Firstly, regarding the construction of the two-phase hybrid lattice
-model, a $500\times 500\times 500$ lattice gas model is constructed in 3D space (as
-shown in Figure 2), in which $500\times 500\times 500\times P$ lattice sites are randomly
-occupied ($P$ denotes the doping concentration of inorganic substances) to
+model, a $\rm 500\times 500\times 500$ lattice gas model is constructed in 3D space (as
+shown in Figure 2), in which $\rm 500\times 500\times 500\times P$ lattice sites are randomly
+occupied ($\rm P$ denotes the doping concentration of inorganic substances) to
 represent the randomly filled inorganic substances in the polymer
 matrix. The bonds connecting two adjacent lattice sites can be
 considered as resistors and three types of bonds exist in the model. (1)
@@ -259,27 +253,19 @@ Figure 3 Program design flow chart
 
 Hardware requirements:
 
--   Processor: Intel or AMD dual-core, frequency 1G and above
-
--   Memory: 4GB and above
+- Processor: Intel or AMD dual-core, frequency 1G and above
+- Memory: 4GB and above
 
 Software requirements:
 
--   Operating system: Windows 7 and above
-
--   Python 3
-
--   pandas 1.3.2
-
--   pip 21.2.2
-
--   python-dateutil 2.8.2
-
--   pytz 2021.1
-
--   setuptool 57.4.0
-
--   six 1.16.0
+- Operating system: Windows 7 and above
+- Python 3
+- pandas 1.3.2
+- pip 21.2.2
+- python-dateutil 2.8.2
+- pytz 2021.1
+- setuptool 57.4.0
+- six 1.16.0
 
 ## 3.2 Installation tutorial
 
