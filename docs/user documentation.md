@@ -16,7 +16,7 @@ challenges.
 
 Inorganic solid electrolytes and polymer electrolytes are commonly used
 in all-solid-state lithium ion batteries. For example,
-$\rm Li_0.33La_0.557TiO_3$(LLTO), $\rm Li_7La_3Zr_2O_12$(LLZO), $\rm Li_1.3Al_0.3Ti_1.7(PO_4)_3$(LATP), and $\rm Li_10GeP_2S_12$(LGPS)are
+$\rm Li_0_._3_3La_0_._5_5_7TiO_3$(LLTO), $\rm Li_7La_3Zr_2O_1_2$(LLZO), $\rm Li_1_._3Al_0_._3Ti_1_._7(PO_4)_3$(LATP), and $\rm Li_10GeP_2S_12$(LGPS)are
 inorganic solid electrolytes. They usually have high lithium ion
 conductivity (higher than $1×10^{−3} \rm S cm^{−1}$ at room temperature), wide
 electrochemical window (\>5V), and good thermal stability. However,
