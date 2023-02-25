@@ -238,7 +238,7 @@ by recording enough walkers migration information.
 
 ## 2.3 programming controls
 
-![](media/f3.png)
+![Figure 3 Program design flow chart](media/f3.png)
 Figure 3 Program design flow chart
 
 # 3 Operating environment and usage method
@@ -273,4 +273,3 @@ After the installation is completed according to 3.1 and 3.2, the
 parameters P, tao_a, tao_b, tao_c are set in the parameter_calculation
 module, and then the program is run to generate a file of sample0, which
 saves the calculation results of ionic conductivity.
-
