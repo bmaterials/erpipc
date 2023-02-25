@@ -15,7 +15,7 @@ electrolytes, commercial lithium-ion batteries are facing severe
 challenges.
 
 Inorganic solid electrolytes and polymer electrolytes are commonly used
-in all-solid-state lithium ion batteries. For example,
+in all-solid-state lithium ion batteries. For example,Li0.33La0.557TiO3
 $\rm Li_0.33La_0.557TiO_3$(LLTO), $\rm Li_7La_3Zr_2O_12$(LLZO), $\rm Li_1.3Al_0.3Ti_1.7(PO_4)_3$(LATP), and $\rm Li_10GeP_2S_12$(LGPS)are
 inorganic solid electrolytes. They usually have high lithium ion
 conductivity (higher than $1×10^{−3} \rm S cm^{−1}$ at room temperature), wide
