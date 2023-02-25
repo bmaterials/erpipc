@@ -128,8 +128,7 @@ on standard grid points, and that arbitrary local interconnections lead
 to global connectivity analysis. Any global connectivity analysis
 resulting from local interconnections can be called a Percolation
 simulation.
-
-![](media/f1.png)
+![输入图片说明](media/%E5%9B%BE%E7%89%87.png)
 Fig. 1 Two-dimensional diagram of several cases regarding percolation.
 (a) Bond percolation model with no conduction channel formed; (b) Bond
 percolation model with conduction channel formed; (c) Point percolation
