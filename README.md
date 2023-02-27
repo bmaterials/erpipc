@@ -30,4 +30,7 @@ python 3.7.4   pandas 1.3.2   pip 21.2.2   python-dateutil 2.8.2  pytz 2021.1  s
 
 The dependent packet information is stored in the requirements.txt file. 
  
-Installation command : pip intall erpipc
+Installation command :
+```shell
+pip intall erpipc
+```
