@@ -29,7 +29,7 @@ def ions_jump(rate_hopping_a, rate_hopping_b, rate_hopping_c, coor_doped_label,i
     all_turn = []
     for i in np.arange(len(ions_logic_coor)):  
         i_cor_all = ions_logic_coor[i]+dxyz
-         i_doped = np.zeros((8, ), dtype=int)
+        i_doped = np.zeros((8, ), dtype=int)
         for j in range(8):
             if coor_doped_label[i_cor_all[j][0], i_cor_all[j][1],i_cor_all[j][2]] == 1:
                 i_doped[j] = 1
